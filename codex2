@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<string.h>
+
+int main()
+{
+    char str[] = "Raihan Wahi";
+
+    printf("%s",str);
+
+    strrev(str);
+
+    printf("\n%s",str);
+
+    return 0;
+
+}
